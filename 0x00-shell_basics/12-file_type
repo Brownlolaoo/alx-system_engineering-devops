@@ -1,2 +1,2 @@
-file /tmp/iamfile
-file /tmp/iamfile
+#!/bin/bash
+file /tmp/iamafile
