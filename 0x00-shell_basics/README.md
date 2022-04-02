@@ -11,3 +11,5 @@ Delete the directory my_first_directory that is in the /tmp directory
 Write a script that changes the working directory to the previous one
 Write a script that lists all files
 Write a script that prints the type of the file named
+ We are symbols, and inhabit symbols
+ We are symbols, and inhabit symbols
