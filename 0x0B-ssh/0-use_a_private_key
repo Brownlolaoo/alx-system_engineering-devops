@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# connects to a server using ssh
-ssh -i ~/.ssh/holberton ubuntu@35.190.145.187
+# Connects to server 3.231.228.2 with key in ~/.ssh/school
+
+ssh -i ~/.ssh/school ubuntu@3.231.228.2
