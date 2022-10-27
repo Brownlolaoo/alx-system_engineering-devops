@@ -41,8 +41,8 @@ listen thelaura
         bind :80
         mode http
         balance roundrobin
-        server 066-web-01 52.204.104.61:80 check
-        server 066-web-02 54.210.174.131:80 check
+        server 33066-web-01 52.204.104.61:80 check
+        server 33066-web-02 54.90.14.253:80 check
 
 frontend www-http
         bind :80
@@ -56,5 +56,5 @@ frontend www-https
 
 backend web-backend
         redirect scheme https if !{ ssl_fc }
-        server 066-web-01 52.204.104.61:80 check
-        server 066-web-02 54.210.174.131:80 check
+        server 33066-web-01 52.204.104.61:80 check
+        server 33066-web-02 54.90.14.253:80 check
