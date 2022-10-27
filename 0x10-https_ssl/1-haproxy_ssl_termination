@@ -56,5 +56,5 @@ frontend www-https
 
 backend web-backend
         redirect scheme https if !{ ssl_fc }
-        server 652-web-01 52.204.104.61:80 check
+        server 066-web-01 52.204.104.61:80 check
         server 066-web-02 54.210.174.131:80 check
